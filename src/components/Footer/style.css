@@ -1,0 +1,144 @@
+div.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background: #000;
+    color: #FFF;
+}
+
+div.logo-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 25%;
+    margin-top: -1%;
+}
+
+div.logo-footer span {
+    font-size: 2rem;
+    margin-left: 0.5%;
+    font-weight: 600;
+}
+
+div.logo-footer span:hover {
+    cursor: pointer;
+}
+
+div.footer-logo-links {
+    display: flex;
+    margin-top: 6%;
+    flex-direction: row;
+    width: 100%;
+}
+
+div.links-footer {
+    width: 40%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+div.links-footer span {
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(126, 126, 126);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+div.links-footer li {
+    margin-top: 15%;
+    font-size: 1.3rem;
+}
+
+div.links-footer li:hover {
+    color: springgreen;
+}
+
+div.social-network {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+div.social-network ul {
+    display: inline-flex;
+    list-style-type: disc;
+    width: 100%;
+    justify-content: center;
+}
+
+div.social-network ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(77, 77, 77);
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    margin-left: 3%;
+}
+
+div.social-network ul li:hover {
+    color: springgreen;
+}
+
+div.suporte {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+div.suporte-links {
+    width: 65%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+nav.footer-links {
+    justify-content: space-between;
+    width: 70%;
+    display: flex;
+}
+
+nav.footer-links a {
+    text-decoration: none;
+    color: rgba(223, 222, 222, 0.76);
+    font-size: 1rem;
+}
+
+nav.footer-links a:hover {
+    color: springgreen;
+}
+
+
+div.copy-footer {
+    width: 35%;
+    flex-direction: column;
+    display: flex;
+    margin-top: -1.2%;
+    justify-content: center;
+}
+
+div.icon-footer {
+    width: 68%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+div.icon-footer p.icon-copy:hover {
+    cursor: pointer;
+    color: springgreen;
+}
+
+div.copy-footer p.copy {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 32%;
+}
+
+
